@@ -1,13 +1,18 @@
 
 a:hover{
-    font: larger;    
+    font-size: larger;    
 }
 
 image {
-    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    opacity: 0.5;
 }
 
-li {
-    text-decoration: none;
-}
 
+
+* {
+    background-image: linear-gradient(to bottom left blue, yellow);
+}
