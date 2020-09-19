@@ -4,5 +4,10 @@ a:hover{
 }
 
 image {
-    center;
+    align-content: center;
 }
+
+li {
+    text-decoration: none;
+}
+
