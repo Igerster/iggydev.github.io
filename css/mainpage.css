@@ -12,5 +12,6 @@ img {
 
 
 html {
-    background: linear-gradient(blue to bottom left, yellow);
+    background: linear-gradient(45deg blue, yellow);
+    
 }
