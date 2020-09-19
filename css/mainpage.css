@@ -4,14 +4,13 @@ a:hover{
 }
 
 img {
-    margin: auto;
+    margin: center;
     max-width: 75%;
-    opacity: 0.25;
+    opacity: 10
 }
 
 
 
 html {
-    background: blue;
-    background: linear-gradient(to bottom left, yellow);
+    background: linear-gradient(blue to bottom left, yellow);
 }
