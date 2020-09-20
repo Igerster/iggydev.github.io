@@ -5,20 +5,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My portfoli site</title>
         <link rel="stylesheet" href="css\mainpage.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     </head>
     <div>
-        <nav>
-            <ul>
-                <li><a href="pages\HTML.html">HTML</a></li>
-                <li><a href="pages\CSS.html">CSS</a></li>
-                <li><a href="pages\Java.html">JavaScript</a></li>
-                <li><a href="pages\game.html" target="blank">Want to play a game</a></li>
-            </ul>
-        </nav>
+        <form class="container">
+            <button class="button" type="submit" formaction="pages\HTML.html">HTML</button>
+            <button class="button"type="submit" formaction="pages\CSS.html">CSS</button>
+            <button class="button"type="submit" formaction="pages\Java.html">JavaScript</button>
+            <button class="button"type="submit" formaction="pages\about_me.html">About Me</button>
+        </form>    
    </div>
-    <img src="images\louisville.jpeg">
+    <img src="images\alaska.jpg">
     <body>
-        <button onclick="location.href='pages\HTML.html'" type="button">HTML</button>
-            
+        <div class="social-container">
+            <a href="https://www.facebook.com/nick.dicken.3" class="fa fa-facebook"></a>
+            <a href="https://www.linkedin.com/in/nick-dicken-644485162/" class="fa fa-linkedin"></a>
+        </div>    
     </body>
 </html>
