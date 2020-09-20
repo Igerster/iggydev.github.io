@@ -1,14 +1,25 @@
 
 a:hover{
-    font-size: larger;    
+    font-size: 150%;
+    color:cornsilk;    
 }
+
+a:link{
+    text-decoration:none;
+}
+
 
 img {
-    margin: center;
-    max-width: 75%;
-    opacity: 10
+    display:block;
+    left-margin: auto;
+    right-margin: auto;
+    max-width:50% ;
+    
 }
 
+li {
+    list-style-type:none;
+}
 
 
 html {
