@@ -1,17 +1,28 @@
+var pictures = ["images/alaska.jpg", "images/berg2.jpg", "images/berg.jpg", "images/mtn.jpg", "images/ocean.jpg", "images/pearl.jpg", "images/pyramid.jpg"]
+
+
 var slideIndex = 0;
 showSlides();
+// var pictures = ["images/alaska.jpg", "images/berg2.jpg", "images/berg.jpg", "images/mtn.jpg", "images/ocean.jpg", "images/pearl.jpg", "images/pyramid.jpg"]
 
 function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("myImages");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000); 
+  // var i;
+  // var slides = document.getElementsByClassName("myImages");
+  // for (i = 0; i < slides.length; i++) {
+  //   slides[i].style.display = "none";
+  // }
+  // slideIndex++;
+  // if (slideIndex > slides.length) {slideIndex = 1}
+  // slides[slideIndex-1].style.display = "block";
+// document.getElementById("images").src = pictures[0]; 
+var node = document.getElementById("images")
+node.src = pictures[0]; 
+setTimeout(showSlides, 2000); 
 }
+
+
+// var pictures = ["images/alaska.jpg", "images/berg2.jpg", "images/berg.jpg", "images/mtn.jpg", "images/ocean.jpg", "images/pearl.jpg", "images/pyramid.jpg"]
+
 
 
 
