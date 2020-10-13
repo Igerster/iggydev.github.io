@@ -1,4 +1,39 @@
+body{
+    background-image: linear-gradient(45deg, yellow, blue);    
+}
 
+img {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: rgb(236, 227, 227);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+a:hover{
+    font-size: 150%;
+    color: cornsilk;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 a:hover{
     font-size: 150%;
     color:cornsilk;    
@@ -44,32 +79,36 @@ html{
     flex-direction: column;
 }
 
+.fa {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    bottom: 0;
+}
+
+
 .fa-facebook {
     background: #3B5998;
     color: white;
-    position: absolute;
-    top: 56%;
+    
 }
 
 .fa-linkedin {
     background: rgba(5, 9, 226, 0.664);
     color: white;
-    position: absolute;
-    top: 65%;
+    
 }
 
 .fa-youtube {
     background: rgba(226, 5, 16, 0.897);
     color: white;
-    position: absolute;
-    top: 75%;
+    
 }
 
 .fa-twitch {
     background: rgba(93, 1, 93, 0.945);
     color: white;
-    position: absolute;
-    top: 84%;
+    
 }
 
 .container2{
@@ -111,4 +150,4 @@ html{
     background-color: mediumseagreen;
     font-size: larger;
 }
-}
+} */
