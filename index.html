@@ -4,22 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio Site</title>
-    <link rel="stylesheet" href="css\mainpage.css">
-    <script src="JS\images.js"></script>
-    <script src="JS\calculator.js"></script>
+    <link rel="stylesheet" href="css/mainpage.css">
+    <script src="JS/menu.js"></script>
 </head>
 <body>
     <div class="nav">
-        <nav>
-            <a href="pages\packing-list.html">Packing List</a>
-            <a href="pages\cost-calculator.html">Budget</a>
-            <a href="pages\where-to.html">Where do you want to go?</a>
-            <a id="modal" href="pages\calculator.html">Calculator</a>
-        </nav>
+        <a href="#home" class="active">Iggy's Travel</a>
+        <div id="links">
+            <a href="pages/packing-list.html">Packing List</a>
+            <a href="pages/cost-calculator.html">Budget</a>
+            <a href="pages/where-to.html">Where do you want to go?</a>
+            <a id="modal" href="pages/calculator.html">Calculator</a>
+        </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>    
     </div>
-    <div class="myImages" id="carousel">
-      <img src="" id="images" class="myImage"/> 
+    <div>
+        <img class="myImages" src="images\berg2.jpg">
+        <img class="myImages" src="images\berg.jpg">
+        <img class="myImages" src="images\mtn.jpg">
+        <img class="myImages" src="images\ocean.jpg">
+        <img class="myImages" src="images\pearl.jpg">
+        <img class="myImages" src="images\pyramid.jpg">
+        <img class="myImages" src="images\alaska.jpg">
+        <img class="myImages" src="images\berg2.jpg">
+        <img class="myImages" src="images\berg.jpg">
+        <img class="myImages" src="images\mtn.jpg">
+        <img class="myImages" src="images\ocean.jpg">
+        <img class="myImages" src="images\pearl.jpg">
+        <img class="myImages" src="images\pyramid.jpg"> 
     </div>
+    <p>I have been fortunate enough to travel.  I hope this site can help you plan your next dream vacation.</p>
+    <p>On this site you'll find tools to help you with your <a href="pages\packing-list.html">packing list</a>so you don't forget anything.</p>
+    <p>You can also find tool to help with your budget <a href="pages\cost-calculator.html">here.</a></p>
+<script src="js/images.js"></script>
+<footer>This page is for demonstration purposes only.  There are no server capabilities, and therefore cannot actually save any data.  If you would like to more information on website creation feel free to contact me, by using the form below.<br>
+    <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="name"><br>
+        E-mail:<br>
+        <input type="text" name="mail"><br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+        </form>
+</footer>        
+
 </body>
 </html>
 
@@ -33,45 +63,3 @@
 
 
 
-<!-- <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My portfoli site</title>
-        <link rel="stylesheet" href="css\mainpage.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="..\JS\images.js"></script>
-
-    </head>
-    <div>
-        <form class="container">
-            <button class="button" type="submit" formaction="pages\work.html">WORK</button>
-            <button class="button" type="submit" formaction="pages\HTML.html">HTML</button>
-            <button class="button"type="submit" formaction="pages\CSS.html">CSS</button>
-            <button class="button"type="submit" formaction="pages\Java.html">JavaScript</button>
-            <button class="button"type="submit" formaction="pages\about_me.html">About Me</button>
-        </form>    
-   </div>
-    <img class="myimages" src="images\alaska.jpg">
-    <img class="myimages" src="images\berg2.jpg">
-    <img class="myimages" src="images\berg.jpg">
-    <img class="myimages" src="images\mtn.jpg">
-    <img class="myimages" src="images\ocean.jpg">
-    <img class="myimages" src="images\pearl.jpg">
-    <img class="myimages" src="images\pyramid.jpg">
-    <body>
-        
-        
-        
-           
-    </body>
-    <footer>
-        <div class="social-container">
-            <a href="https://www.facebook.com/nick.dicken.3" class="fa fa-facebook"></a>
-            <a href="https://www.linkedin.com/in/nick-dicken-644485162/" class="fa fa-linkedin"></a>
-            <a href="https://www.youtube.com/channel/UCNXBz5VwqA_ITgZsyVjzkmg?view_as=subscriber" class="fa fa-youtube"></a>
-            <a href="https://www.twitch.tv/igerster" class="fa fa-twitch"></a>
-        </div> 
-    </footer>
-</html> -->

@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="..\css\packing.css"> 
-    <script src="..\JS\pack.js"></script>
+    <script src="..\JS\menu.js"></script>
     <title>Packing list</title>
 </head>
-<div>
-    <nav>
-        <a href="https://iggydev.net">Home</a>
-        <a href="..\pages\cost-calculator.html">Vacation Budget</a>
-        <a href="..\pages\where-to.html">Where do you want to go?</a>
-
-    </nav>
-</div>
 <body>
+    <div class="nav">
+        <a href="#home" class="active">Iggy's Travel</a>
+        <div id="links">
+            <a href="../index.html">Home</a>
+            <a href="../pages/packing-list.html">Packing List</a>
+            <a href="../pages/cost-calculator.html">Budget</a>
+            <a href="../pages/where-to.html">Where do you want to go?</a>
+            <a id="modal" href="pages/calculator.html">Calculator</a>
+        </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>    
+    </div>
     <h1>What do you need to bring?</h1>
         <p>It's easy to get excited about your trip, and forget to pack something.  Use this tool to make a list of all the things you think you might need.</p>
 <div id="toDo" class="header">
@@ -28,5 +33,6 @@
     <li>Pack Clothes</li>
    
 </ul> 
+<script src="..\JS\pack.js"></script>
 </body>
 </html>
