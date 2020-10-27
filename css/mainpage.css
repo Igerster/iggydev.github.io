@@ -38,6 +38,7 @@ a:visited{
     overflow: hidden;
     background-color: #a412bea1;
     position: relative;
+    padding-bottom: 10px ;
   }
   
 .nav #links {

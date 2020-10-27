@@ -103,6 +103,7 @@ button:nth-child(20){
 	background-color: #a412bea1;
 }
 
+
 /* modal */
 .modal {
   display: none; /* Hidden by default */
@@ -128,10 +129,13 @@ button:nth-child(20){
 
 /* The Close Button */
 .close {
-  color: #aaa;
-  float: right;
+  color: rgb(3, 3, 3);
+  position: relative;
+  top: 5rem;
+  left: 20rem;
   font-size: 28px;
   font-weight: bold;
+  z-index: 1;
 }
 
 .close:hover,
