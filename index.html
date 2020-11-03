@@ -5,60 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio Site</title>
     <link rel="stylesheet" href="css/mainpage.css">
-    <link rel="stylesheet" href="css\calculator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="JS/menu.js"></script>
 </head>
 <body>
-    <div class="nav">
+    <div class="nav tablet desktop">
         <a href="#home" class="active">Iggy's Travel</a>
         <div id="links">
             <a href="pages/packing-list.html">Packing List</a>
             <a href="pages/cost-calculator.html">Budget</a>
             <a href="pages/where-to.html">Where do you want to go?</a>
-            <button id="calculator" class="calc">Calculator</button>
+            <a href="pages/calculator.html">Calculator</a>
         </div>
     <!-- this is for the hamburger menu -->
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
     </a>    
     </div>
-    <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <div id="container">
-            <div id="calculator">
-                <div id="result">
-                    <div id="history">
-                        <p id="history-value"></p>
-                    </div>
-                    <div id="output">
-                        <p id="output-value"></p>
-                    </div>
-                </div>
-                <div id="keyboard">
-                    <button class="operator" id="clear">C</button>
-                    <button class="operator" id="backspace">CE</button>
-                    <button class="operator" id="%">%</button>
-                    <button class="operator" id="/">&#247;</button>
-                    <button class="number" id="7">7</button>
-                    <button class="number" id="8">8</button>
-                    <button class="number" id="9">9</button>
-                    <button class="operator" id="*">&times;</button>
-                    <button class="number" id="4">4</button>
-                    <button class="number" id="5">5</button>
-                    <button class="number" id="6">6</button>
-                    <button class="operator" id="-">-</button>
-                    <button class="number" id="1">1</button>
-                    <button class="number" id="2">2</button>
-                    <button class="number" id="3">3</button>
-                    <button class="operator" id="+">+</button>
-                    <button class="empty" id="empty"></button>
-                    <button class="number" id="0">0</button>
-                    <button class="empty" id="empty"></button>
-                    <button class="operator" id="=">=</button>
-                </div>
-            </div>
-        </div>
-    </div>
+   
 <div>
     <img class="myImages" src="images\berg2.jpg">
     <img class="myImages" src="images\berg.jpg">
@@ -76,20 +40,28 @@
 </div>
     <p>I have been fortunate enough to travel.  I hope this site can help you plan your next dream vacation.</p>
     <p>On this site you'll find tools to help you with your <a href="pages\packing-list.html">packing list</a>so you don't forget anything.</p>
-    <p>You can also find tool to help with your budget <a href="pages\cost-calculator.html">here.</a></p>
+    <p>You can also find a handy <a href="pages\calculator.html">calculator,</a> to help you with your budgeting.</p>
 <footer>This page is for demonstration purposes only.  There are no server capabilities, and therefore cannot actually save any data.  If you would like to more information on website creation feel free to contact me, by using the form below.<br>
-    <form action="mailto:igerster80@gmail.com" method="post" enctype="text/plain">
+    
+
+    <!-- <form action="mailto:igerster80@gmail.com" method="post" enctype="text/plain">
         Name:<br>
         <input type="text" name="name"><br>
         E-mail:<br>
         <input type="text" name="mail"><br><br>
         <input type="submit" value="Send">
         <input type="reset" value="Reset">
-        </form>
+        </form> -->
+    <form class="contact" action="/action_page.php">
+        <label for="name">Name</label>
+        <input type="text" id="Name" required>
+        <label for="email">email</label>
+        <input type="text" id="email" required>
+        <input class="submit" type="submit">
+
+    </form>
 </footer>        
 <script src="JS/images.js"></script>
-<script src="JS/modal.js"></script>
-<script src="../JS/calculator.js"></script> 
 </body>
 </html>
 
