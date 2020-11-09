@@ -8,7 +8,7 @@ html{
 
 img {
     width: 100%;
-    height: auto;
+    max-height: 800px;
     object-fit: cover;
     margin-left: auto;
     margin-right: auto;
@@ -31,7 +31,10 @@ a:hover{
 a:visited{
     color: red;
 }
-  
+
+article{
+  font-size: x-large;
+}
 
 /* Hamburger menu */
 .nav {
@@ -80,11 +83,81 @@ a:visited{
   }
 .submit{
   margin-top: 10px;
+  cursor: pointer;
 }  
 /* media queriers */
 
+@media screen and (min-width:769px){
+  .nav{
+    display: none;
+  }
+  .tablet{
+    display: none;
+  }
+  .desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: x-large;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: rgba(213, 213, 226, 0.733);
+  }
+   a{
+    color: rgb(0, 255, 255);
+    font-weight: bold;
+  }
+  a:visited{
+    color: rgb(147, 0, 205);
+  }
+  a:hover{
+    font-size: xx-large;
+    cursor: pointer;
+  }
+  
+ 
+  .submit{
+    font-size: larger;
+    padding: 10px;
+    background-color: tomato;
+  }
+  
+}
 
 
+
+@media screen and (min-device-width:481px) and (max-device-width:768px) {
+  .nav{
+    display: none;
+  }
+  .desktop{
+    display: none;
+  }
+  .tablet{
+    padding-top: 5px;
+  }
+  button{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: larger;
+    background-color: rgb(216, 132, 22);
+  }
+  button:nth-child(odd){
+    background-color: cyan;
+  }
+}  
+
+@media screen and (max-device-width:480px){
+  .tablet{
+    display: none;
+  }
+  .desktop{
+    display: none;;
+  }
+}
 
 
 

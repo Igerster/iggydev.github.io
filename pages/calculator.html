@@ -4,24 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../JS/menu.js"></script>
+    <script defer src="../JS/calculator.js"></script>
     <link rel="stylesheet" href="../css/calculator.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Calculator</title>
 </head>
 <body>
-    <div class="nav tablet desktop">
-        <a href="#home" class="active">Iggy's Travel</a>
-        <div id="links">
-            <a href="pages/packing-list.html">Packing List</a>
-            <a href="pages/cost-calculator.html">Budget</a>
-            <a href="pages/where-to.html">Where do you want to go?</a>
-            <a href="../index.html">Home</a>
-        </div>
-    <!-- this is for the hamburger menu -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-    </a>    
+  <!-- mobile nav menu -->
+  <div class="nav">
+    <a href="#home" class="active">Iggy's Travel</a>
+    <div id="links">
+        <a href="../index.html">Home</a>
+        <a href="../pages/packing-list.html">Packing List</a>
+        <a href="../pages/other-projects.html">Other Projects</a>
     </div>
+<!-- this is for the hamburger menu -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i> </a> 
+</div>
+<!-- tablet menu -->
+<nav class="tablet">
+    <div id="links">
+        <button onclick="document.location='../index.html'" >Home</button>
+        <button onclick="document.location='../pages/packing-list.html'" >Packing List</button>
+        <button onclick="document.location='../pages/other-projects.html'" >Other Projects</button>
+    </div>
+</nav>    
+<nav class="desktop">
+    <a href="../index.html">Home</a>
+    <a href="../packing-list.html">Packing List</a>
+    <a href="../pages/other-projects.html">Other Projects</a>
+</nav>    
     <div id="container">
         <div id="calculator">
             <div id="result">
@@ -56,6 +69,6 @@
             </div>
         </div>
     </div>
-<script src="../JS/calculator.js"></script>
 </body>
+<footer>&copy;2020 Iggy</footer>
 </html>

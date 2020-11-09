@@ -8,18 +8,31 @@
     <title>Packing list</title>
 </head>
 <body>
+    <!-- mobile nav menu -->
     <div class="nav">
         <a href="#home" class="active">Iggy's Travel</a>
         <div id="links">
             <a href="../index.html">Home</a>
-            <a href="../pages/packing-list.html">Packing List</a>
-            <a href="../pages/cost-calculator.html">Budget</a>
-            <a href="../pages/where-to.html">Where do you want to go?</a>
-            <a id="modal" href="pages/calculator.html">Calculator</a>
+            <a href="../pages/calculator.html">Calculator</a>
+            <a href="../pages/other-projects.html">Other Projects</a>
         </div>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-    </a>    
+    <!-- this is for the hamburger menu -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i> </a> 
+    </div>
+    <!-- tablet menu -->
+    <nav class="tablet">
+        <div id="links">
+            <button onclick="document.location='../index.html'">Home</button>
+            <button onclick="document.location='../pages/calculator.html'" >Calculator</button>
+            <button onclick="document.location='../pages/other-projects.html'" >Other Projects</button>
+        </div>
+    </nav>    
+    <nav class="desktop">
+        <a href="../index.html">Home</a>
+        <a href="../pages/calculator.html">Calculator</a>
+        <a href="../pages/other-projects.html">Other Projects</a>
+    </nav>    
     </div>
     <h1>What do you need to bring?</h1>
         <p>It's easy to get excited about your trip, and forget to pack something.  Use this tool to make a list of all the things you think you might need.</p>
@@ -33,6 +46,7 @@
     <li>Pack Clothes</li>
    
 </ul> 
-<script src="..\JS\pack.js"></script>
+<script src="../JS/pack.js"></script>
 </body>
+<footer>&copy;2020 Iggy</footer>
 </html>

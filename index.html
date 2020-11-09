@@ -3,26 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio Site</title>
+    <title>Iggy's Travel</title>
     <link rel="stylesheet" href="css/mainpage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="JS/menu.js"></script>
+    <script defer src="JS/images.js"></script>
 </head>
 <body>
-    <div class="nav tablet desktop">
+    <!-- mobile nav menu -->
+    <div class="nav">
         <a href="#home" class="active">Iggy's Travel</a>
         <div id="links">
             <a href="pages/packing-list.html">Packing List</a>
-            <a href="pages/cost-calculator.html">Budget</a>
-            <a href="pages/where-to.html">Where do you want to go?</a>
             <a href="pages/calculator.html">Calculator</a>
+            <a href="pages/other-projects.html">Other Projects</a>
         </div>
     <!-- this is for the hamburger menu -->
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-    </a>    
+        <i class="fa fa-bars"></i> </a> 
     </div>
-   
+    <!-- tablet menu -->
+    <nav class="tablet">
+        <div id="links">
+            <button onclick="document.location='pages/packing-list.html'" >Packing List</button>
+            <button onclick="document.location='pages/calculator.html'" >Calculator</button>
+            <button onclick="document.location='pages/other-projects.html'" >Other Projects</button>
+        </div>
+    </nav>    
+    <nav class="desktop">
+        <a href="pages/packing-list.html">Packing List</a>
+        <a href="pages/calculator.html">Calculator</a>
+        <a href="pages/other-projects.html">Other Projects</a>
+    </nav>    
 <div>
     <img class="myImages" src="images\berg2.jpg">
     <img class="myImages" src="images\berg.jpg">
@@ -38,30 +50,23 @@
     <img class="myImages" src="images\pearl.jpg">
     <img class="myImages" src="images\pyramid.jpg"> 
 </div>
+<article>
     <p>I have been fortunate enough to travel.  I hope this site can help you plan your next dream vacation.</p>
     <p>On this site you'll find tools to help you with your <a href="pages\packing-list.html">packing list</a>so you don't forget anything.</p>
     <p>You can also find a handy <a href="pages\calculator.html">calculator,</a> to help you with your budgeting.</p>
+</article>     
 <footer>This page is for demonstration purposes only.  There are no server capabilities, and therefore cannot actually save any data.  If you would like to more information on website creation feel free to contact me, by using the form below.<br>
-    
-
-    <!-- <form action="mailto:igerster80@gmail.com" method="post" enctype="text/plain">
-        Name:<br>
-        <input type="text" name="name"><br>
-        E-mail:<br>
-        <input type="text" name="mail"><br><br>
-        <input type="submit" value="Send">
-        <input type="reset" value="Reset">
-        </form> -->
+</footer> 
     <form class="contact" action="/action_page.php">
         <label for="name">Name</label>
         <input type="text" id="Name" required>
         <label for="email">email</label>
         <input type="text" id="email" required>
         <input class="submit" type="submit">
-
     </form>
-</footer>        
-<script src="JS/images.js"></script>
+    &copy;2020 Iggy
+        
+
 </body>
 </html>
 

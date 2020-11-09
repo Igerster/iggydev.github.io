@@ -1,6 +1,8 @@
 html{
   background: no-repeat;
-  background-image: linear-gradient(45deg, rgba(255, 166, 0, 0.808), rgb(20, 238, 38));    
+  background-image: linear-gradient(45deg, yellow, blue);
+  height: 100%;
+  width: 100%;
 }
 
 a{
@@ -174,3 +176,76 @@ input {
   background-color: #a412bea1;
   color: white;
 }
+
+@media screen and (min-width:769px){
+  .nav{
+    display: none;
+  }
+  .tablet{
+    display: none;
+  }
+  .desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: x-large;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: mediumblue;
+  }
+  
+  a{
+    color: lime;
+    padding: 5px;
+    font-weight: bold;
+  }
+  a:visited{
+    color: rgb(0, 205, 109);
+  }
+  a:hover{
+    font-size: xx-large;
+    cursor: pointer;
+  }
+  
+}
+
+footer{
+  clear: both;
+  position: relative;
+  bottom: 0;
+}
+
+
+@media screen and (min-device-width:481px) and (max-device-width:768px) {
+  .nav{
+    display: none;
+  }
+  .desktop{
+    display: none;
+  }
+  .tablet{
+    padding-top: 5px;
+  }
+  button{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: larger;
+    background-color: rgb(216, 132, 22);
+  }
+  button:nth-child(odd){
+    background-color: cyan;
+  }
+}  
+
+@media screen and (max-device-width:480px){
+  .tablet{
+    display: none;
+  }
+  .desktop{
+    display: none;;
+  }
+}
+

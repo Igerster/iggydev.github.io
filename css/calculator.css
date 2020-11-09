@@ -1,6 +1,8 @@
 html{
 	background-repeat: no-repeat ;
-    background-image: linear-gradient(45deg, yellow, blue);
+	background-image: linear-gradient(45deg, yellow, blue);
+	height: 100%;
+  	width: 100%;
 }
 
 .nav {
@@ -44,13 +46,12 @@ body{
 	font-family: 'Open Sans',sans-serif;
 }
 #container{
-	width: 1000px;
+	width: 750px;
 	height: 550px;
 	background-repeat: no-repeat ;
-    background-image: linear-gradient(45deg, yellow, blue);
-	margin: 10px auto;	
+  	margin: 10px auto;	
 	
-}
+} 
 #calculator{
 	width: 320px;
 	height: 520px;
@@ -58,9 +59,9 @@ body{
 	margin: 0 auto;
 	top: 20px;
 	position: relative;
-	left: -315px;
+	left: -150px;
 	border-radius: 5px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
 #result{
 	height: 120px;
@@ -104,23 +105,104 @@ body{
 .operator:focus, .number:focus, .empty:focus{
 	outline: 0;
 }
+
+button:nth-child(1){
+	background-color: cyan;
+}
+button:nth-child(3){
+	background-color: cyan;
+}
 button:nth-child(4){
 	font-size: 20px;
-	background-color: #20b2aa;
+	background-color: #204cb2;
 }
 button:nth-child(8){
 	font-size: 20px;
-	background-color: #ffa500;
+	background-color: #00ccff;
 }
 button:nth-child(12){
 	font-size: 20px;
-	background-color: #f08080;
+	background-color: #eb1414;
 }
 button:nth-child(16){
 	font-size: 20px;
-	background-color: #7d93e0;
+	background-color: #12e02d;
 }
 button:nth-child(20){
 	font-size: 20px;
-	background-color: #9477af;
+	background-color: #5c08aaad;
 }
+
+footer{
+	position: absolute;
+	bottom: 0;
+}
+/* media queriers */
+
+@media screen and (min-width:769px){
+	.nav{
+	  display: none;
+	}
+	.tablet{
+	  display: none;
+	}
+	.desktop {
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: flex-end;
+	  font-size: x-large;
+	  position: -webkit-sticky;
+	  position: sticky;
+	  top: 0;
+	  background-color: mediumblue;
+	}
+	
+	
+	a{
+	  color: lime;
+	  padding: 5px;
+	  font-weight: bold;
+	}
+	a:visited{
+	  color: rgb(0, 205, 109);
+	}
+	a:hover{
+	  font-size: xx-large;
+	  cursor: pointer;
+	}
+}
+  
+  
+  
+  @media screen and (min-device-width:481px) and (max-device-width:768px) {
+	.nav{
+	  display: none;
+	}
+	.desktop{
+	  display: none;
+	}
+	.tablet{
+	  padding-top: 5px;
+	}
+	button{
+	  display: block;
+	  width: 100%;
+	  margin-top: 10px;
+	  padding: 5px;
+	  font-size: larger;
+	  background-color: rgb(216, 132, 22);
+	}
+	
+}
+
+  
+  @media screen and (max-device-width:480px){
+	.tablet{
+	  display: none;
+	}
+	.desktop{
+	  display: none;;
+	}
+  }
+  
+  
