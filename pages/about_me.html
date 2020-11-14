@@ -3,14 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/aboutMe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../JS/menu.js"></script>
+    <title>About Iggy</title>
 </head>
 <body>
+    <!-- mobile nav menu -->
+    <div class="nav">
+        <a href="#home" class="active">Iggy's Travel</a>
+        <div id="links">
+            <a href="../index.html">Home</a>
+            <a href="../pages/packing-list.html">Packing List</a>
+            <a href="../pages/calculator.html">Calculator</a>
+            <a href="../pages/other-projects.html">Other Projects</a>
+        </div>
+    <!-- this is for the hamburger menu -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i> </a> 
+    </div>
+    <!-- tablet menu -->
+    <nav class="tablet">
+        <div id="links">
+            <button onclick="document.location='../pages/index.html'" >Home</button>
+            <button onclick="document.location='../pages/packing-list.html'" >Packing List</button>
+            <button onclick="document.location='../pages/calculator.html'" >Calculator</button>
+            <button onclick="document.location='../pages/other-projects.html'" >Other Projects</button>
+        </div>
+    </nav>    
+    <nav class="desktop">
+        <a href="../index.html">Home</a>
+        <a href="../pages/packing-list.html">Packing List</a>
+        <a href="../pages/calculator.html">Calculator</a>
+        <a href="../pages/other-projects.html">Other Projects</a>
+    </nav>    
     <h2>A little about me</h2>
-            <p>My name is Nick, but online I go by Iggy, or Igerster.  I am an aspiring web developer.  On this website, I hope to show you some of my skills and abilities when it comes to web development.  If you would like to contact me for more information, please feel free to do so.
+            <p>My name is Nick.  Online, I go by Iggy. It’s a nickname I’ve had for many many years.  I am an aspiring web developer.  I currently work in law enforcement, at a county jail as a Lieutenant.  In my current capacities, I oversee officers who have direct contact with inmates, and lower level supervisors.  A large part of my job is writing policy and procedures for my department.  These policies must keep safety and security as top priority, as well as  being able to stand up to the scrutiny of the courts.  Before working in law enforcement, I worked at <a id="box" href="https://www.netflix.com" target="blank">Netflix</a> for 6 ½ years.  
+
             </p>    
-            <p>I am currently working in Law Enforcement as a Lieutenant at a County Jail.  I have the responsibility of supervising the officers that are in direct contact with inmates, as well as lower level supervisors. My decisions have a direct impact on the safety and security of the facility, as well the lives of the staff that work there, and the inmates that are housed there.  In my time working for the jail, I have written, and implemented many new policy, and procedures.  These policies must ensure that our facility remains safe and secure, as well being able to stand up to the scrutiny of the courts.  
+            <p>I believe everyday is an opportunity.  It’s important to never stop learning, and passing on that knowledge.  I hope this site shows a bit of what I have learned in regards to web development.  If you would like to contact me for more information, please feel free to do so, at <a href="mailto:"igerster80@gmail.com">igerster80@gmail.com</a>   
+
             </p>    
-            <p>Before working in law enforcement, I worked for <a id="box" href="https://www.netflix.com" target="blank">Netflix</a> for 6 ½ years.</p>  
+            
 </body>
 </html>
