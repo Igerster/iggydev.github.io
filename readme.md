@@ -15,4 +15,4 @@ The Calculator page launches a calculator for the user.  Buttons were styled wit
 The site is hosted at iggydev.net
 
 Other projects:
-There is a page titled “Other Projects.”  This is for projects that are in the very early stages.  One is a redesign of my work website.  The other is a random name generator, because people at work can never decide where to go for lunch.  Neither of these are done, and should not be considered as part of the project at this time, however feel free to look at them.  Please note that because they are works in progress, and separate for the project, they will not have a link back to the main page.  
+There is a page titled “Other Projects.”  This is for projects that are in the very early stages.  One is a redesign of my work website.  The other is a random name generator, because people at work can never decide where to go for lunch.  Neither of these are done, and should not be considered as part of the project at this time, however feel free to look at them.  Please note that because they are works in progress, and separate for the project, they may not have a link back to the main page.  
