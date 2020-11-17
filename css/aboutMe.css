@@ -65,30 +65,12 @@ article{
     color: white;
   }
 
-  .contact{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    width: 40%;
-    color: rgb(241, 139, 6);
-  }
-.submit{
-  margin-top: 10px;
-  cursor: pointer;
-}  
+footer{
+  position: absolute;
+  bottom: 0;
+  color: black;
+} 
 
-.fa-facebook {
-  padding: 10px;
-  margin: 10px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 75%;
-  background-color: rgba(85, 85, 223, 0.828);
-  color: white;
-  
-}
 
 /* media queriers */
 

@@ -4,12 +4,9 @@ html{
     color: rgb(255, 255, 255); 
     height: 100%;
     width: 100%;
-    padding-right: 10px;
-  }
-
-p{
-    display: block;
 }
+
+
 
 
 a {
@@ -71,40 +68,18 @@ article{
     color: white;
   }
 
-  .contact{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    width: 40%;
-    color: rgb(241, 139, 6);
-  }
-.submit{
-  margin-top: 10px;
-  cursor: pointer;
-}  
-
-.fa-facebook {
-  padding: 10px;
-  margin: 10px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 75%;
-  background-color: rgba(85, 85, 223, 0.828);
-  color: white;
-  
+footer{
+  position: absolute;
+  bottom: 0;
+  color: black;
 }
+
 
 /* media queriers */
 
 
 
 @media screen and (min-width:769px){
-  html{
-    padding-left: 10px;
-    padding-right: 10px;
-  }
   .nav{
     display: none;
   }
@@ -132,14 +107,7 @@ article{
     font-size: xx-large;
     cursor: pointer;
   }
-  
- 
-  .submit{
-    font-size: larger;
-    padding: 10px;
-    background-color: tomato;
-  }
-  
+
 }
 
 
